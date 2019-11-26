@@ -63,6 +63,16 @@ a {
 	background: white;
 }
 
+.chart-section {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.chart-title {
+	text-align: center;
+}
+
 .pie-chart1 {
 	display: block;
 	width: 300px;
