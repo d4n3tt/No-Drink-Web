@@ -2,9 +2,9 @@
 
 html{scroll-behavior:smooth}
 
-body{
+body {
 	font-family: 'NanumSquare';
-	margin: 0 auto;
+	margin: -21px auto;
 }
 
 .header-container {
@@ -14,12 +14,13 @@ body{
 	left: 0;
 	width: 100%;
 	height: 60px;
-	background: ghostwhite;
+	background: rgb(245, 245, 245);
+	opacity: 0;
 }
 
 header {
 	width: 60%;
-	height: 60px;
+	height: 55px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -30,15 +31,21 @@ header {
 	list-style: none;
 }
 
+/*
+.header-line {
+	position: absolute;
+	background: crimson;
+	top: 55px;
+	width: 100%;
+	height: 5px;
+}
+*/
+
 a {
 	font-weight: 700;
 	font-size: 1.5rem;
 	color: crimson;
 	text-decoration: none;
-}
-
-.nav-up {
-	top: -80px;
 }
 
 .page {
@@ -49,10 +56,11 @@ a {
 
 #home {
 	height: 600px;
+	background: crimson;
 }
 
 #statistics {
-	background: red;
+	background: white;
 }
 
 .pie-chart1 {
@@ -78,9 +86,16 @@ span.center{
 	border-radius: 50%;
 }
 
-#statistics h1 {
+#statistics .text {
 	position: relative;
 	top: 50%;
 	text-align: center;
+	color: crimson;
+	line-height: 80%;
+	font-weight: 800;
 	transform: translate(0%, -50%);
+}
+
+#help {
+	background: crimson;
 }
