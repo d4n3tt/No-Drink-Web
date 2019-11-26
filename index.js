@@ -41,9 +41,14 @@ $(window).on("scroll", function() {
         });
     }
     /////
-    if ($(window).scrollTop() > $("#statistics").position().top - 100 && flag == 0) {
+    if ($(window).scrollTop() > $("#statistics").position().top - 200 && $(window).scrollTop() < $("#statistics").position().top + 300 && flag == 0) {
         play();
         flag = 1;
+    } else if ($(window).scrollTop() > $("#statistics").position().top + 500 || $(window).scrollTop() < $("#statistics").position().top - 500) {    
+        $(".pie-chart1").css({
+            "background":"conic-gradient(crimson 0% 0%, gainsboro 0% 100%)"
+        });
+        flag = 0;
     }
     /////
     if ($(window).scrollTop() < $("#statistics .s1 .text").position().top - 400) {
