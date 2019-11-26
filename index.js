@@ -23,3 +23,23 @@ function color1(i, classname,colorname){
 function play(){
     draw(37.1, '.pie-chart1', 'crimson');
 }
+
+///////////////////////
+
+$(window).on("scroll", function() {
+    var st = ($(window).scrollTop() - 400) / 2;
+    if ($(window).scrollTop() < 600 && $(window).scrollTop() > 400) {
+        console.log(st);
+        $(".header-container").css({
+            "opacity": st + "%"
+        });
+    } else if ($(window).scrollTop() <= 400) {
+        $(".header-container").css({
+            "opacity": "0%"
+        });
+    } else {
+        $(".header-container").css({
+            "opacity": "100%"
+        });
+    }
+});
