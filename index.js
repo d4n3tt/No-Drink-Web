@@ -60,4 +60,27 @@ $(window).on("scroll", function() {
             "opacity": "100%"
         });
     }
+    ///
+    if ($(window).scrollTop() >= $("#help").position().top - 10) {
+        $("a").css({
+            "color": "black"
+        });
+        $(".a-help").css({
+            "color": "crimson"
+        });
+    } else if ($(window).scrollTop() >= $("#danger").position().top - 10) {
+        $("a").css({
+            "color": "black"
+        });
+        $(".a-danger").css({
+            "color": "crimson"
+        });
+    } else if ($(window).scrollTop() >= $("#statistics").position().top - 10) {
+        $("a").css({
+            "color": "black"
+        });
+        $(".a-statistics").css({
+            "color": "crimson"
+        });
+    }
 });
