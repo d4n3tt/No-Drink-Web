@@ -26,15 +26,15 @@ function draw(max, classname, colorname){
  var flag = 0;
  
  $(window).on("scroll", function() {
-     var st = ($(window).scrollTop() - 400) / 2 - 10;
+     var st = ($(window).scrollTop() - 1600) / 2 - 10;
      var st2 = 100 - ($("#statistics .chart-section").position().top - 400 - $(window).scrollTop());
      var st3 = 100 - ($("#statistics .s1 .text").position().top - 400 - $(window).scrollTop());
      var st4 = 100 - ($("#danger").position().top - 200 - $(window).scrollTop());
-     if ($(window).scrollTop() < 600 && $(window).scrollTop() > 400) {
+     if ($(window).scrollTop() < 1800 && $(window).scrollTop() > 1600) {
          $(".header-container").css({
              "opacity": st + "%"
          });
-     } else if ($(window).scrollTop() <= 400) {
+     } else if ($(window).scrollTop() <= 1600) {
          $(".header-container").css({
              "opacity": "0%"
          });
