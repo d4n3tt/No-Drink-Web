@@ -17,7 +17,7 @@ function color1(i, classname,colorname, max){
 }
 
 function play(){
-    draw(39, '.pie-chart1', 'palevioletred');
+    draw(39, '.pie-chart1', 'crimson');
 }
 
 ///////////////////////
@@ -46,7 +46,7 @@ $(window).on("scroll", function() {
         flag = 1;
     } else if ($(window).scrollTop() > $("#statistics").position().top + 500 || $(window).scrollTop() < $("#statistics").position().top - 500) {    
         $(".pie-chart1").css({
-            "background":"conic-gradient(palevioletred 0% 0%, gainsboro 0% 100%)"
+            "background":"conic-gradient(crimson 0% 0%, gainsboro 0% 100%)"
         });
         flag = 0;
     }
@@ -66,21 +66,21 @@ $(window).on("scroll", function() {
             "color": "black"
         });
         $(".a-help").css({
-            "color": "palevioletred"
+            "color": "crimson"
         });
     } else if ($(window).scrollTop() >= $("#danger").position().top - 10) {
         $("a").css({
             "color": "black"
         });
         $(".a-danger").css({
-            "color": "palevioletred"
+            "color": "crimson"
         });
     } else if ($(window).scrollTop() >= $("#statistics").position().top - 10) {
         $("a").css({
             "color": "black"
         });
         $(".a-statistics").css({
-            "color": "palevioletred"
+            "color": "crimson"
         });
     }
 });
