@@ -19,7 +19,7 @@ body {
 }
 
 header {
-	width: 60%;
+	width: 70%;
 	height: 55px;
 	text-align: center;
 	margin: 0 auto;
@@ -65,7 +65,7 @@ a {
 
 #home {
 	height: 700px;
-	background: crimson;
+	background: palevioletred;
 	/*
 	background-image: url("https://postfiles.pstatic.net/MjAxOTExMjdfMjY0/MDAxNTc0NzkzNTUwMzg2.b7FRv2Dg7pYY9ca-EDGJCAXfhShdE97SdJ-GZY-UGMUg.LvD8aIouIeLgNJiDAnC9ffz7yUvNmG30wmEBMXSyqmQg.PNG.uglycat8/image.png?type=w773");
 	background-size: 100% auto;
@@ -86,7 +86,7 @@ a {
 
 .chart-title {
 	text-align: center;
-	color: crimson;
+	color: palevioletred;
 	height: 300px;
 	font-weight: 700; 
 }
@@ -118,7 +118,7 @@ span.center{
 	position: relative;
 	top: 50%;
 	text-align: center;
-	color: crimson;
+	color: palevioletred;
 	line-height: 80%;
 	font-weight: 800;
 	transform: translate(0%, -50%);
@@ -138,5 +138,5 @@ span.center{
 }
 
 #help {
-	background: crimson;
+	background: palevioletred;
 }
