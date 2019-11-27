@@ -41,20 +41,27 @@ header {
 }
 */
 
+.title-container {
+	height: 700px;
+}
+
 .title {
 	position: relative;
 	top: 50%;
 	text-align: center;
-	color: white;
+	color: palevioletred;
 	line-height: 80%;
 	transform: translate(0%, -50%);
 }
 
 a {
+	text-decoration: none;
+}
+
+header a {
 	font-weight: 700;
 	font-size: 1.5rem;
 	color: black;
-	text-decoration: none;
 }
 
 .page {
@@ -64,8 +71,8 @@ a {
 }
 
 #home {
-	height: 700px;
-	background: palevioletred;
+	height: 1600px;
+	background: white;
 	/*
 	background-image: url("https://postfiles.pstatic.net/MjAxOTExMjdfMjY0/MDAxNTc0NzkzNTUwMzg2.b7FRv2Dg7pYY9ca-EDGJCAXfhShdE97SdJ-GZY-UGMUg.LvD8aIouIeLgNJiDAnC9ffz7yUvNmG30wmEBMXSyqmQg.PNG.uglycat8/image.png?type=w773");
 	background-size: 100% auto;
@@ -75,6 +82,7 @@ a {
 
 #statistics {
 	background: white;
+	height: 1500px;
 }
 
 .chart-section {
@@ -137,6 +145,61 @@ span.center{
 	transform: translate(0%, -50%);
 }
 
+#danger {
+	background: white;
+	height: 800px;
+}
+
+.icon-container {
+	display: block;
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+.icon {
+	vertical-align: top;
+	margin: 2%;
+	display: inline-block;
+	width: 10%;
+}
+
+#danger .img {
+	height: 100px;
+}
+
+#danger img {
+	width: 100%;
+}
+
+#danger .text {
+	text-align: center;
+	color: palevioletred;
+	font-size: 1.5rem;
+}
+
+#danger h4 {
+	line-height: 150%;
+}
+
 #help {
 	background: palevioletred;
+	height: 800px;
+}
+
+#help .text {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	margin: 0%;
+	color: white;
+	line-height: 80%;
+	transform: translate(0%, -50%);
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+#help a {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 700;
 }
