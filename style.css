@@ -147,7 +147,7 @@ span.center{
 
 #danger {
 	background: white;
-	height: 800px;
+	height: 1000px;
 }
 
 .icon-container {
@@ -165,7 +165,7 @@ span.center{
 }
 
 #danger .img {
-	height: 100px;
+	height: 10%;
 }
 
 #danger img {
@@ -175,7 +175,7 @@ span.center{
 #danger .text {
 	text-align: center;
 	color: palevioletred;
-	font-size: 1.5rem;
+	font-size: 120%;
 }
 
 #danger h4 {
