@@ -30,7 +30,7 @@ function draw(max, classname, colorname){
      var st2 = 100 - ($("#statistics .chart-section").position().top - 400 - $(window).scrollTop());
      var st3 = 100 - ($("#statistics .s1 .text").position().top - 400 - $(window).scrollTop());
      var st4 = 100 - ($("#danger").position().top - 200 - $(window).scrollTop());
-     var st5 = 100 - ($("#help .text").position().top - 200 - $(window).scrollTop());
+     var st5 = 100 - ($("#help .text").position().top - 400 - $(window).scrollTop());
      if ($(window).scrollTop() < 1800 && $(window).scrollTop() > 1600) {
          $(".header-container").css({
              "opacity": st + "%"
@@ -88,7 +88,7 @@ function draw(max, classname, colorname){
              "opacity": "100%"
          });
      }
-     if ($(window).scrollTop() < $("#help .text").position().top - 200) {
+     if ($(window).scrollTop() < $("#help .text").position().top - 400) {
          $("#help .text").css({
              "opacity": st5 + "%"
          });
