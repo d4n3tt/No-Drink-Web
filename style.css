@@ -147,7 +147,7 @@ span.center{
 
 #danger {
 	background: white;
-	height: 1000px;
+	height: 900px;
 }
 
 .icon-container {
@@ -195,7 +195,7 @@ span.center{
 	color: white;
 	transform: translate(0%, -50%);
 	font-weight: 800;
-	font-size: 1.5rem;
+	font-size: 1.0rem;
 }
 #help a {
 	color: white;

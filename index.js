@@ -88,21 +88,21 @@ function draw(max, classname, colorname){
          });
      }
      ///
-     if ($(window).scrollTop() >= $("#help").position().top - 10) {
+     if ($(window).scrollTop() >= $("#help").position().top - 30) {
          $("header a").css({
              "color": "black"
          });
          $(".a-help").css({
              "color": "palevioletred"
          });
-     } else if ($(window).scrollTop() >= $("#danger").position().top - 10) {
+     } else if ($(window).scrollTop() >= $("#danger").position().top - 30) {
          $("header a").css({
              "color": "black"
          });
          $(".a-danger").css({
              "color": "palevioletred"
          });
-     } else if ($(window).scrollTop() >= $("#statistics").position().top - 10) {
+     } else if ($(window).scrollTop() >= $("#statistics").position().top - 30) {
          $("header a").css({
              "color": "black"
          });
