@@ -49,7 +49,7 @@ header {
 	position: relative;
 	top: 50%;
 	text-align: center;
-	color: palevioletred;
+	color: #DB7093;
 	line-height: 80%;
 	transform: translate(0%, -50%);
 }
@@ -94,7 +94,7 @@ header a {
 
 .chart-title {
 	text-align: center;
-	color: palevioletred;
+	color: #C370AA;
 	height: 300px;
 	font-weight: 700; 
 }
@@ -126,7 +126,7 @@ span.center{
 	position: relative;
 	top: 50%;
 	text-align: center;
-	color: palevioletred;
+	color: #C370AA;
 	line-height: 80%;
 	font-weight: 800;
 	transform: translate(0%, -50%);
@@ -174,7 +174,7 @@ span.center{
 
 #danger .text {
 	text-align: center;
-	color: palevioletred;
+	color: #AB70C1;
 	font-size: 120%;
 }
 
@@ -183,7 +183,7 @@ span.center{
 }
 
 #help {
-	background: palevioletred;
+	background: #9370D8;
 	height: 800px;
 }
 

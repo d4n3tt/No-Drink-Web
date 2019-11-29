@@ -12,7 +12,7 @@ function draw(max, classname, colorname){
  
  function color1(i, classname,colorname, max){
     $(classname).css({
-         "background":"conic-gradient("+colorname+" 0% "+i+"%, gainsboro "+i+"% 100%)",
+         "background":"conic-gradient("+colorname+", mediumPurple "+i+"%, gainsboro "+i+"% 100%)",
     });
  }
  
