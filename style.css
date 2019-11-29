@@ -183,7 +183,27 @@ span.center{
 }
 
 #help {
+	height: 800px;
+}
+
+#help .s119-container {
+	display: block;
+	height: 500px;
+}
+
+#help .s119 {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	color: #9370D8;
+	transform: translate(0%, -50%);
+	font-weight: 800;
+	font-size: 1.0rem;
+}
+
+#help .text-container {
 	background: #9370D8;
+	display: block;
 	height: 800px;
 }
 
@@ -191,7 +211,7 @@ span.center{
 	position: relative;
 	top: 50%;
 	text-align: center;
-	margin: 0% 5%;
+	padding: 2% 5%;
 	color: white;
 	transform: translate(0%, -50%);
 	font-weight: 800;

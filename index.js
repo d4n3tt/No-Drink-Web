@@ -30,7 +30,8 @@ function draw(max, classname, colorname){
      var st2 = 100 - ($("#statistics .chart-section").position().top - 400 - $(window).scrollTop());
      var st3 = 100 - ($("#statistics .s1 .text").position().top - 400 - $(window).scrollTop());
      var st4 = 100 - ($("#danger").position().top - 200 - $(window).scrollTop());
-     var st5 = 100 - ($("#help .text").position().top - 400 - $(window).scrollTop());
+     var st5 = 100 - ($("#help .s119").position().top - 400 - $(window).scrollTop());
+     var st6 = 100 - ($("#help .text").position().top - 400 - $(window).scrollTop());
      if ($(window).scrollTop() < 1800 && $(window).scrollTop() > 1600) {
          $(".header-container").css({
              "opacity": st + "%"
@@ -88,9 +89,18 @@ function draw(max, classname, colorname){
              "opacity": "100%"
          });
      }
+     if ($(window).scrollTop() < $("#help .s119").position().top - 400) {
+         $("#help .s119").css({
+             "opacity": st5 + "%"
+         });
+     } else {
+         $("#help .s119").css({
+             "opacity": "100%"
+         });
+     }
      if ($(window).scrollTop() < $("#help .text").position().top - 400) {
          $("#help .text").css({
-             "opacity": st5 + "%"
+             "opacity": st6 + "%"
          });
      } else {
          $("#help .text").css({
@@ -98,26 +108,26 @@ function draw(max, classname, colorname){
          });
      }
      ///
-     if ($(window).scrollTop() >= $("#help").position().top - 30) {
+     if ($(window).scrollTop() >= $("#help").position().top - 50) {
          $("header a").css({
              "color": "black"
          });
          $(".a-help").css({
-             "color": "palevioletred"
+             "color": "#9370D8"
          });
-     } else if ($(window).scrollTop() >= $("#danger").position().top - 30) {
+     } else if ($(window).scrollTop() >= $("#danger").position().top - 50) {
          $("header a").css({
              "color": "black"
          });
          $(".a-danger").css({
-             "color": "palevioletred"
+             "color": "#AB70C1"
          });
-     } else if ($(window).scrollTop() >= $("#statistics").position().top - 30) {
+     } else if ($(window).scrollTop() >= $("#statistics").position().top - 50) {
          $("header a").css({
              "color": "black"
          });
          $(".a-statistics").css({
-             "color": "palevioletred"
+             "color": "#C370AA"
          });
      }
  });
