@@ -60,7 +60,7 @@ a {
 
 header a {
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: black;
 }
 
@@ -219,6 +219,16 @@ span.center{
 
 .test-table td {
 	font-weight: 400;
+}
+
+button {
+	border: 0px;
+	background: white;
+	text-align: center;
+	padding: 20px 10px;
+	font-family: 'NanumSquare';
+	font-weight: 700;
+	color: black;
 }
 
 #help {
