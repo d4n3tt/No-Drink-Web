@@ -203,6 +203,24 @@ span.center{
 	line-height: 150%;
 }
 
+#test {
+	height: 1700px;
+	background: #9370D8;
+}
+
+.test-table {
+	position: relative;
+	top: 50%;
+	color: white;
+	transform: translate(0%, -50%);
+	font-weight: 800;
+	font-size: 1.0rem;
+}
+
+.test-table td {
+	font-weight: 400;
+}
+
 #help {
 	height: 800px;
 }
@@ -216,14 +234,14 @@ span.center{
 	position: relative;
 	top: 50%;
 	text-align: center;
-	color: #9370D8;
+	color: #7B70EF;
 	transform: translate(0%, -50%);
 	font-weight: 800;
 	font-size: 1.0rem;
 }
 
 #help .text-container {
-	background: #9370D8;
+	background: #7B70EF;
 	display: block;
 	height: 800px;
 }
