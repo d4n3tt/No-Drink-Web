@@ -110,6 +110,17 @@ header a {
 	transition: 0.3s;
 }
 
+.pie-chart2 {
+	display: block;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	top: 20%;
+	margin: auto;	
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
 span.center{
 	background: white;
 	display: block;
@@ -123,6 +134,16 @@ span.center{
 }
 
 .pie-chart1 .text {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	color: #C370AA;
+	line-height: 80%;
+	font-weight: 800;
+	transform: translate(0%, -50%);
+}
+
+.pie-chart2 .text {
 	position: relative;
 	top: 50%;
 	text-align: center;
