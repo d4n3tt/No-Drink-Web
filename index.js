@@ -39,6 +39,20 @@ function draw(max, classname, colorname){
     });
  }, 5);
 
+ imgClick = setInterval(function() {
+    if (t == 0) {
+        i++;
+        if (i == 100) t = 1;
+    }
+    if (t == 1){
+        i--;
+        if (i == 0) t = 0;
+    }
+    $(".title img").css({
+        "opacity":i+"%"
+    });
+ }, 30);
+
  $(document).ready(function() {
     var agent = navigator.userAgent.toLowerCase();
     if (agent.indexOf("chrome") == -1) {
