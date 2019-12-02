@@ -51,7 +51,7 @@ function draw(max, classname, colorname){
     $(".title img").css({
         "opacity":i+"%"
     });
- }, 3d0);
+ }, 30);
 
  $(document).ready(function() {
     var agent = navigator.userAgent.toLowerCase();
