@@ -24,6 +24,15 @@ function draw(max, classname, colorname){
  ///////////////////////
  
  var flag = 0;
+
+ $(window).onLoad(function() {
+    var agent = navigator.userAgent.toLowerCase();
+    if (agent.indexOf("chrome") == -1) {
+        $(".browser-check").text("이 홈페이지는 구글 크롬으로 접속하셔야 정상적으로 작동합니다.");
+    } else {
+        $(".browser-check").text("");
+    }
+ });
  
  $(window).on("scroll", function() {
      var st = ($(window).scrollTop() - 1600) / 2 - 10;
